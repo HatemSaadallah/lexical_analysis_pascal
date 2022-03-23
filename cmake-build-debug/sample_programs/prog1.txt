@@ -2,7 +2,7 @@ program one;
 var a, b, c : integer;
 var d : boolean;
 
-begin
+   begin
 a := 3;
 b := a + 5;
 End.

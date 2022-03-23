@@ -20,7 +20,7 @@ C:/Users/m.s.i/CLionProjects/pascal-compiler/ToUpper.h
 iostream
 -
 
-C:/Users/m.s.i/CLionProjects/pascal-compiler/TokenStructure.cpp
+C:/Users/m.s.i/CLionProjects/pascal-compiler/TokenStructure.h
 iostream
 -
 
@@ -33,4 +33,10 @@ set
 -
 ReadKeywords.h
 C:/Users/m.s.i/CLionProjects/pascal-compiler/ReadKeywords.h
+TokenStructure.h
+C:/Users/m.s.i/CLionProjects/pascal-compiler/TokenStructure.h
+trimString.h
+C:/Users/m.s.i/CLionProjects/pascal-compiler/trimString.h
+
+C:/Users/m.s.i/CLionProjects/pascal-compiler/trimString.h
 

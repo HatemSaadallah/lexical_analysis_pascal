@@ -128,30 +128,6 @@ pascal_compiler/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pascal_compiler.dir\build.make CMakeFiles/pascal_compiler.dir/build
 .PHONY : pascal_compiler/fast
 
-TokenStructure.obj: TokenStructure.cpp.obj
-.PHONY : TokenStructure.obj
-
-# target to build an object file
-TokenStructure.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pascal_compiler.dir\build.make CMakeFiles/pascal_compiler.dir/TokenStructure.cpp.obj
-.PHONY : TokenStructure.cpp.obj
-
-TokenStructure.i: TokenStructure.cpp.i
-.PHONY : TokenStructure.i
-
-# target to preprocess a source file
-TokenStructure.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pascal_compiler.dir\build.make CMakeFiles/pascal_compiler.dir/TokenStructure.cpp.i
-.PHONY : TokenStructure.cpp.i
-
-TokenStructure.s: TokenStructure.cpp.s
-.PHONY : TokenStructure.s
-
-# target to generate assembly for a file
-TokenStructure.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pascal_compiler.dir\build.make CMakeFiles/pascal_compiler.dir/TokenStructure.cpp.s
-.PHONY : TokenStructure.cpp.s
-
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -185,9 +161,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... pascal_compiler
-	@echo ... TokenStructure.obj
-	@echo ... TokenStructure.i
-	@echo ... TokenStructure.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

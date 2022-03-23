@@ -88,10 +88,13 @@
 		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/ToUpper.h">
 			<Option target="pascal_compiler"/>
 		</Unit>
-		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/TokenStructure.cpp">
+		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/TokenStructure.h">
 			<Option target="pascal_compiler"/>
 		</Unit>
 		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/main.cpp">
+			<Option target="pascal_compiler"/>
+		</Unit>
+		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/trimString.h">
 			<Option target="pascal_compiler"/>
 		</Unit>
 		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/CMakeLists.txt">

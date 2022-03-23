@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pascal_compiler.dir/TokenStructure.cpp.obj"
   "CMakeFiles/pascal_compiler.dir/main.cpp.obj"
   "libpascal_compiler.dll.a"
   "pascal_compiler.exe"
