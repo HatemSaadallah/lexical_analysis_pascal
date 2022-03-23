@@ -128,54 +128,6 @@ pascal_compiler/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pascal_compiler.dir\build.make CMakeFiles/pascal_compiler.dir/build
 .PHONY : pascal_compiler/fast
 
-ReadKeywords.obj: ReadKeywords.cpp.obj
-.PHONY : ReadKeywords.obj
-
-# target to build an object file
-ReadKeywords.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pascal_compiler.dir\build.make CMakeFiles/pascal_compiler.dir/ReadKeywords.cpp.obj
-.PHONY : ReadKeywords.cpp.obj
-
-ReadKeywords.i: ReadKeywords.cpp.i
-.PHONY : ReadKeywords.i
-
-# target to preprocess a source file
-ReadKeywords.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pascal_compiler.dir\build.make CMakeFiles/pascal_compiler.dir/ReadKeywords.cpp.i
-.PHONY : ReadKeywords.cpp.i
-
-ReadKeywords.s: ReadKeywords.cpp.s
-.PHONY : ReadKeywords.s
-
-# target to generate assembly for a file
-ReadKeywords.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pascal_compiler.dir\build.make CMakeFiles/pascal_compiler.dir/ReadKeywords.cpp.s
-.PHONY : ReadKeywords.cpp.s
-
-ToUpper.obj: ToUpper.cpp.obj
-.PHONY : ToUpper.obj
-
-# target to build an object file
-ToUpper.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pascal_compiler.dir\build.make CMakeFiles/pascal_compiler.dir/ToUpper.cpp.obj
-.PHONY : ToUpper.cpp.obj
-
-ToUpper.i: ToUpper.cpp.i
-.PHONY : ToUpper.i
-
-# target to preprocess a source file
-ToUpper.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pascal_compiler.dir\build.make CMakeFiles/pascal_compiler.dir/ToUpper.cpp.i
-.PHONY : ToUpper.cpp.i
-
-ToUpper.s: ToUpper.cpp.s
-.PHONY : ToUpper.s
-
-# target to generate assembly for a file
-ToUpper.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pascal_compiler.dir\build.make CMakeFiles/pascal_compiler.dir/ToUpper.cpp.s
-.PHONY : ToUpper.cpp.s
-
 TokenStructure.obj: TokenStructure.cpp.obj
 .PHONY : TokenStructure.obj
 
@@ -233,12 +185,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... pascal_compiler
-	@echo ... ReadKeywords.obj
-	@echo ... ReadKeywords.i
-	@echo ... ReadKeywords.s
-	@echo ... ToUpper.obj
-	@echo ... ToUpper.i
-	@echo ... ToUpper.s
 	@echo ... TokenStructure.obj
 	@echo ... TokenStructure.i
 	@echo ... TokenStructure.s

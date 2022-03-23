@@ -6,15 +6,31 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/m.s.i/CLionProjects/pascal-compiler/main.cpp
+C:/Users/m.s.i/CLionProjects/pascal-compiler/ReadKeywords.h
 iostream
--
-fstream
--
-string
 -
 set
 -
 fstream
 -
+ToUpper.h
+C:/Users/m.s.i/CLionProjects/pascal-compiler/ToUpper.h
+
+C:/Users/m.s.i/CLionProjects/pascal-compiler/ToUpper.h
+iostream
+-
+
+C:/Users/m.s.i/CLionProjects/pascal-compiler/TokenStructure.cpp
+iostream
+-
+
+C:/Users/m.s.i/CLionProjects/pascal-compiler/main.cpp
+iostream
+-
+string
+-
+set
+-
+ReadKeywords.h
+C:/Users/m.s.i/CLionProjects/pascal-compiler/ReadKeywords.h
 

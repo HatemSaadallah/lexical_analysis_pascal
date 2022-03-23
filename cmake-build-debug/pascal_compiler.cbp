@@ -82,10 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/ReadKeywords.cpp">
+		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/ReadKeywords.h">
 			<Option target="pascal_compiler"/>
 		</Unit>
-		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/ToUpper.cpp">
+		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/ToUpper.h">
 			<Option target="pascal_compiler"/>
 		</Unit>
 		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/TokenStructure.cpp">

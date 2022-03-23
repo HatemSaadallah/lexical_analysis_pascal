@@ -8,8 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/m.s.i/CLionProjects/pascal-compiler/ReadKeywords.cpp" "C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/CMakeFiles/pascal_compiler.dir/ReadKeywords.cpp.obj"
-  "C:/Users/m.s.i/CLionProjects/pascal-compiler/ToUpper.cpp" "C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/CMakeFiles/pascal_compiler.dir/ToUpper.cpp.obj"
   "C:/Users/m.s.i/CLionProjects/pascal-compiler/TokenStructure.cpp" "C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/CMakeFiles/pascal_compiler.dir/TokenStructure.cpp.obj"
   "C:/Users/m.s.i/CLionProjects/pascal-compiler/main.cpp" "C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/CMakeFiles/pascal_compiler.dir/main.cpp.obj"
   )
