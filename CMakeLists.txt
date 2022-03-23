@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.20)
+project(pascal_compiler)
+
+set(CMAKE_CXX_STANDARD 23)
+
+add_executable(pascal_compiler main.cpp TokenStructure.cpp ReadKeywords.h ToUpper.h)

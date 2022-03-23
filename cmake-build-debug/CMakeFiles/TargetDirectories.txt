@@ -1,0 +1,3 @@
+C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/CMakeFiles/pascal_compiler.dir
+C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/m.s.i/CLionProjects/pascal-compiler/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+set
+-
+fstream
+-
+
