@@ -91,6 +91,9 @@
 		<Unit filename="/home/hatem/CLionProjects/lexical_analysis_pascal/TokenStructure.h">
 			<Option target="pascal_compiler"/>
 		</Unit>
+		<Unit filename="/home/hatem/CLionProjects/lexical_analysis_pascal/checkNumeric.h">
+			<Option target="pascal_compiler"/>
+		</Unit>
 		<Unit filename="/home/hatem/CLionProjects/lexical_analysis_pascal/main.cpp">
 			<Option target="pascal_compiler"/>
 		</Unit>

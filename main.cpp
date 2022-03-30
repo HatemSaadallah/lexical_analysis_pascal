@@ -5,6 +5,8 @@
 #include "TokenStructure.h"
 #include "trimString.h"
 #include "splitBasedOnDelimiter.h"
+#include "checkNumeric.h"
+
 int main() {
     std::set<std::string> keywords = readKeyWords("keywords.txt");
     std::set<std::string> keywordsWithNoSpacesAllowed = readKeyWords("keywordNoSpacesAllowed");
@@ -21,7 +23,32 @@ int main() {
             std::string curr_buffer = "";
             std::string s = toUpperWord(trim(line).c_str()).c_str();
             for(int index = 0; index < s.size(); ++index){
-                std::cout << curr_buffer << std::endl;
+//                std::cout << curr_buffer << std::endl;
+                if(s[index] >= 'A' && s[index] <= 'Z'){
+                    curr_buffer+=s[index];
+                } else {
+                    if(s[index] == '_') {
+                        curr_buffer+='_';
+                        continue;
+                    }
+                    if(s[index] == ' '){
+                        token.lineNumber = lineNumber;
+                        token.name = curr_buffer;
+                        if(keywords.find(curr_buffer) != keywords.end()){
+                            token.type = 0;
+                        } else {
+                            if(checkNumeric(curr_buffer)){
+                                token.type = 1;
+                            } else {
+                                token.type = 2;
+                            }
+                        }
+                        std::cout << token << std::endl;
+                        curr_buffer = "";
+                    } else {
+                        if()
+                    }
+                }
                 if(keywords.find(curr_buffer) != keywords.end()){
                     token.lineNumber = lineNumber;
                     token.type = 0;
