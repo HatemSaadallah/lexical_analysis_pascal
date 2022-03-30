@@ -4,8 +4,8 @@
 #include <iostream>
 
 struct Token {
-    std::string name, type;
-    int lineNumber;
+    std::string name;
+    int type, lineNumber;
 } token;
 
 std::ostream& operator<<(std::ostream& os, const Token& m)

@@ -1,6 +1,6 @@
 program one;
-var a, b, c : integer;
-var d : boolean;
+var a,b,c:integer;
+var d:boolean;
 
    begin
 a := 3;

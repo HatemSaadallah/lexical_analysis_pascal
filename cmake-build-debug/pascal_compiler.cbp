@@ -8,96 +8,102 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug"/>
+				<Option working_dir="/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="pascal_compiler">
-				<Option output="C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/pascal_compiler.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 pascal_compiler"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="pascal_compiler/fast">
-				<Option output="C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/pascal_compiler.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 pascal_compiler/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug"/>
+				<Option working_dir="/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/m.s.i/CLionProjects/pascal-compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pascal_compiler">
+				<Option output="/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/pascal_compiler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/Makefile&quot;  VERBOSE=1 pascal_compiler"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pascal_compiler/fast">
+				<Option output="/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/pascal_compiler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/Makefile&quot;  VERBOSE=1 pascal_compiler/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/hatem/CLionProjects/lexical_analysis_pascal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/ReadKeywords.h">
+		<Unit filename="/home/hatem/CLionProjects/lexical_analysis_pascal/ReadKeywords.h">
 			<Option target="pascal_compiler"/>
 		</Unit>
-		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/ToUpper.h">
+		<Unit filename="/home/hatem/CLionProjects/lexical_analysis_pascal/ToUpper.h">
 			<Option target="pascal_compiler"/>
 		</Unit>
-		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/TokenStructure.h">
+		<Unit filename="/home/hatem/CLionProjects/lexical_analysis_pascal/TokenStructure.h">
 			<Option target="pascal_compiler"/>
 		</Unit>
-		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/main.cpp">
+		<Unit filename="/home/hatem/CLionProjects/lexical_analysis_pascal/main.cpp">
 			<Option target="pascal_compiler"/>
 		</Unit>
-		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/trimString.h">
+		<Unit filename="/home/hatem/CLionProjects/lexical_analysis_pascal/repository.h">
 			<Option target="pascal_compiler"/>
 		</Unit>
-		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/CMakeLists.txt">
+		<Unit filename="/home/hatem/CLionProjects/lexical_analysis_pascal/splitBasedOnDelimiter.h">
+			<Option target="pascal_compiler"/>
+		</Unit>
+		<Unit filename="/home/hatem/CLionProjects/lexical_analysis_pascal/trimString.h">
+			<Option target="pascal_compiler"/>
+		</Unit>
+		<Unit filename="/home/hatem/CLionProjects/lexical_analysis_pascal/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
