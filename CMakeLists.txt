@@ -3,4 +3,4 @@ project(pascal_compiler)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(pascal_compiler main.cpp TokenStructure.h ReadKeywords.h ToUpper.h trimString.h splitBasedOnDelimiter.h repository.h checkNumeric.h findFunctions.h)
+add_executable(pascal_compiler main.cpp TokenStructure.h ReadKeywords.h ToUpper.h trimString.h splitBasedOnDelimiter.h repository.h checkNumeric.h findFunctions.h findAllOccurances.h)

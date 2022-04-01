@@ -94,6 +94,9 @@
 		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/checkNumeric.h">
 			<Option target="pascal_compiler"/>
 		</Unit>
+		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/findAllOccurances.h">
+			<Option target="pascal_compiler"/>
+		</Unit>
 		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/findFunctions.h">
 			<Option target="pascal_compiler"/>
 		</Unit>

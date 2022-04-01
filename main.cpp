@@ -7,6 +7,9 @@
 #include "splitBasedOnDelimiter.h"
 #include "checkNumeric.h"
 #include "findFunctions.h"
+#include "findAllOccurances.h"
+#include <map>
+#include <regex>
 
 int main() {
     std::set<std::string> keywords = readKeyWords("keywords.txt");
@@ -19,79 +22,38 @@ int main() {
             lineNumber++;
             line = line.c_str();
             std::string line_taken = line.c_str();
-            if(line.empty())
+            if (line.empty())
                 continue;
-            std::string curr_buffer = "";
+            std::cout << line << std::endl;
             std::string s = toUpperWord(trim(line).c_str()).c_str();
-            for(int index = 0; index < s.size(); ++index){
-//                std::cout << curr_buffer << std::endl;
-                if(s[index] >= 'A' && s[index] <= 'Z'){
-                    curr_buffer+=s[index];
+//            std::vector<std::string> tokens = splitBasedOnDelimiter(s, " ");
+            std::map<int, std::string> indices;
+            for(std::string keywordToken: keywords){
+                std::vector<std::size_t> occur = findAllOccurances(s, keywordToken);
+                if(occur.empty()){
                     continue;
-                } else {
-                    if(s[index] == '_') {
-                        curr_buffer+='_';
-                        continue;
-                    }
-                    if(s[index] == ' '){
-                        token.lineNumber = lineNumber;
-                        token.name = curr_buffer;
-                        if(keywords.find(curr_buffer) != keywords.end()){
-                            token.type = 0;
-                        } else {
-                            if(checkNumeric(curr_buffer)){
-                                token.type = 1;
-                            } else {
-                                token.type = 2;
-                            }
-                        }
-                        std::cout << token << std::endl;
-                        curr_buffer = "";
-                    } else {
-                        token.lineNumber = lineNumber;
-                        token.name = curr_buffer;
-                        if(keywords.find(curr_buffer) != keywords.end()){
-                            token.type = 0;
-                            std::cout << token << std::endl;
-                            continue;
-                        }
-                        std::string temp = "";
-                        temp+= s[index];
-                        temp+=s[index+1];
-                        if(inKeywords(keywordsWithNoSpacesAllowed, temp)){
-                            token.type = 0;
-                            std::cout << token << std::endl;
-                            curr_buffer = "";
-                            index++;
-                            continue;
-                        } else {
-                            temp.pop_back();
-                            if(inKeywords(keywordsWithNoSpacesAllowed, temp)){
-                                token.type = 0;
-                                std::cout << token << std::endl;
-                                curr_buffer = "";
-                                continue;
-                            }
-                        }
-                        std::cout << "Here: " << curr_buffer << std::endl;
-                    }
                 }
-                if(keywords.find(curr_buffer) != keywords.end()){
-                    token.lineNumber = lineNumber;
-                    token.type = 0;
-                    token.name = curr_buffer;
-                    std::cout << token << std::endl;
-                    curr_buffer = "";
-                } else {
-                    curr_buffer += s[index];
+                for(size_t i: occur){
+                    indices[i] = keywordToken;
+                    std::string temp = "";
+                    for(int i=0; i < keywordToken.length(); i++){
+                        temp += " ";
+                    }
+                    s.replace(s.begin()+i, s.begin()+i+keywordToken.size(), temp);
                 }
-
             }
-//            printf("%s\n", s.c_str());
+            std::string curr_buffer = "";
+            for(int i=0; i < s.size()-1; ++i){
+                if(s[i])
+            }
+            std::cout << "Iam s: " << s << "\n";
+            for(auto elem: indices){
+                std::cout << "Here:\n";
+                std::cout << elem.first << " " << elem.second << std::endl;
+            }
         }
         file.close();
     }
-
 
 //    std::vector<std::string> v =  splitBasedOnDelimiter("a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z", ",");
 //    for(auto elem: v){

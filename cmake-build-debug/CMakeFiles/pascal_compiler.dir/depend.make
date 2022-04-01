@@ -6,6 +6,7 @@ CMakeFiles/pascal_compiler.dir/main.cpp.obj: \
  ../ToUpper.h \
  ../TokenStructure.h \
  ../checkNumeric.h \
+ ../findAllOccurances.h \
  ../findFunctions.h \
  ../main.cpp \
  ../splitBasedOnDelimiter.h \
