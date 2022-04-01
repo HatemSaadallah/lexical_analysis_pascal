@@ -6,6 +6,7 @@
 #include "trimString.h"
 #include "splitBasedOnDelimiter.h"
 #include "checkNumeric.h"
+#include "findFunctions.h"
 
 int main() {
     std::set<std::string> keywords = readKeyWords("keywords.txt");
@@ -26,6 +27,7 @@ int main() {
 //                std::cout << curr_buffer << std::endl;
                 if(s[index] >= 'A' && s[index] <= 'Z'){
                     curr_buffer+=s[index];
+                    continue;
                 } else {
                     if(s[index] == '_') {
                         curr_buffer+='_';
@@ -46,7 +48,32 @@ int main() {
                         std::cout << token << std::endl;
                         curr_buffer = "";
                     } else {
-                        if()
+                        token.lineNumber = lineNumber;
+                        token.name = curr_buffer;
+                        if(keywords.find(curr_buffer) != keywords.end()){
+                            token.type = 0;
+                            std::cout << token << std::endl;
+                            continue;
+                        }
+                        std::string temp = "";
+                        temp+= s[index];
+                        temp+=s[index+1];
+                        if(inKeywords(keywordsWithNoSpacesAllowed, temp)){
+                            token.type = 0;
+                            std::cout << token << std::endl;
+                            curr_buffer = "";
+                            index++;
+                            continue;
+                        } else {
+                            temp.pop_back();
+                            if(inKeywords(keywordsWithNoSpacesAllowed, temp)){
+                                token.type = 0;
+                                std::cout << token << std::endl;
+                                curr_buffer = "";
+                                continue;
+                            }
+                        }
+                        std::cout << "Here: " << curr_buffer << std::endl;
                     }
                 }
                 if(keywords.find(curr_buffer) != keywords.end()){

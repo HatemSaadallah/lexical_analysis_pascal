@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pascal_compiler.dir/main.cpp.o"
-  "CMakeFiles/pascal_compiler.dir/main.cpp.o.d"
-  "pascal_compiler"
+  "CMakeFiles/pascal_compiler.dir/main.cpp.obj"
+  "libpascal_compiler.dll.a"
+  "pascal_compiler.exe"
+  "pascal_compiler.exe.manifest"
   "pascal_compiler.pdb"
 )
 
