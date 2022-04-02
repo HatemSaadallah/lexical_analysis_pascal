@@ -4,7 +4,7 @@
 #include <iostream>
 #include <set>
 #include <fstream>
-#include "ToUpper.h"
+#include "../ToUpper.h"
 
 std::set<std::string> readKeyWords(std::string nameOfFile){
     std::ifstream myfile; myfile.open(nameOfFile);

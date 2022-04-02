@@ -82,25 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/ReadKeywords.h">
-			<Option target="pascal_compiler"/>
-		</Unit>
 		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/ToUpper.h">
 			<Option target="pascal_compiler"/>
 		</Unit>
 		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/TokenStructure.h">
-			<Option target="pascal_compiler"/>
-		</Unit>
-		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/checkNumeric.h">
-			<Option target="pascal_compiler"/>
-		</Unit>
-		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/extractWordsWithIndex.h">
-			<Option target="pascal_compiler"/>
-		</Unit>
-		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/findAllOccurances.h">
-			<Option target="pascal_compiler"/>
-		</Unit>
-		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/findFunctions.h">
 			<Option target="pascal_compiler"/>
 		</Unit>
 		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/main.cpp">
@@ -109,13 +94,25 @@
 		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/repository.h">
 			<Option target="pascal_compiler"/>
 		</Unit>
-		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/splitBasedOnDelimiter.h">
-			<Option target="pascal_compiler"/>
-		</Unit>
 		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/trimString.h">
 			<Option target="pascal_compiler"/>
 		</Unit>
+		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/utils/ReadKeywords.h">
+			<Option target="pascal_compiler"/>
+		</Unit>
+		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/utils/checkNumeric.h">
+			<Option target="pascal_compiler"/>
+		</Unit>
+		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/utils/checkTypeOfToken.h">
+			<Option target="pascal_compiler"/>
+		</Unit>
+		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/utils/findAllOccurances.h">
+			<Option target="pascal_compiler"/>
+		</Unit>
 		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/utils/replaceAll.h">
+			<Option target="pascal_compiler"/>
+		</Unit>
+		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/utils/splitBasedOnDelimiter.h">
 			<Option target="pascal_compiler"/>
 		</Unit>
 		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/CMakeLists.txt">

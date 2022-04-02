@@ -1,14 +1,14 @@
 #include <iostream>
 #include <string>
 #include <set>
-#include "ReadKeywords.h"
+#include "utils/ReadKeywords.h"
 #include "TokenStructure.h"
 #include "trimString.h"
-#include "splitBasedOnDelimiter.h"
-#include "checkNumeric.h"
-#include "findFunctions.h"
-#include "findAllOccurances.h"
+#include "utils/splitBasedOnDelimiter.h"
+#include "utils/checkNumeric.h"
+#include "utils/findAllOccurances.h"
 #include "utils/replaceAll.h"
+#include "utils/checkTypeOfToken.h"
 
 #include <map>
 #include <regex>
@@ -16,6 +16,7 @@
 int main() {
     std::set<std::string> keywords = readKeyWords("keywords.txt");
     std::ifstream file("sample_programs/prog1.txt");
+    printf("%-10s %-10s %-10s\n\n", "Name", "Type", "Line No");
     if (file.is_open()) {
         std::string line;
         int lineNumber = 0;
@@ -25,7 +26,6 @@ int main() {
             std::string line_taken = line.c_str();
             if (line.empty())
                 continue;
-//            std::cout << line << std::endl;
             std::string s = toUpperWord(trim(line).c_str()).c_str();
             std::map<int, std::string> indices;
             for (std::string keywordToken: keywords) {
@@ -40,7 +40,17 @@ int main() {
                 }
 
             }
-            std::cout << "Iam s: " << s << "\n";
+            std::vector<std::string> tokens = splitBasedOnDelimiter(s, " ");
+
+            for(auto &word: tokens){
+                word = trim(word);
+                token.lineNumber = lineNumber;
+                token.type = checkTypeOfToken(word, keywords);
+                token.name = word;
+                if(token.type == -1) continue;
+                printToken(token);
+//                std::cout << token << std::endl;
+            }
         }
         file.close();
     }
