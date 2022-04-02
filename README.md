@@ -1,4 +1,4 @@
-# C++ Lexical Analyzer
+# C++ Lexical Analyzer for Pasacl Language
 
 ### This is a school project and by no means of perfect, but it is a good start.
 ### DO NOT USE THIS FOR ANY REAL PURPOSE.
