@@ -2,13 +2,13 @@
 // Created by m.s.i on 3/23/2022.
 //
 #include <iostream>
-#include <set>
+#include <vector>
 #include <fstream>
-#include "../ToUpper.h"
+#include "ToUpper.h"
 
-std::set<std::string> readKeyWords(std::string nameOfFile){
+std::vector<std::string> readKeyWords(std::string nameOfFile){
     std::ifstream myfile; myfile.open(nameOfFile);
-    std::set<std::string> keywords;
+    std::vector<std::string> keywords;
     if ( myfile.is_open() ) {
         std::string s;
 
@@ -17,7 +17,7 @@ std::set<std::string> readKeyWords(std::string nameOfFile){
             s = myfile.get();
             if(s != "\n") temp+=s;
             else {
-                keywords.insert(toUpperWord(temp));
+                keywords.push_back(toUpperWord(temp));
                 temp = "";
             }
         }

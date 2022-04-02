@@ -3,4 +3,4 @@ project(pascal_compiler)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(pascal_compiler main.cpp TokenStructure.h utils/ReadKeywords.h ToUpper.h trimString.h utils/checkNumeric.h utils/splitBasedOnDelimiter.h repository.h utils/findAllOccurances.h utils/replaceAll.h utils/checkTypeOfToken.h)
+add_executable(pascal_compiler main.cpp utils/TokenStructure.h utils/ReadKeywords.h utils/ToUpper.h utils/trimString.h utils/checkNumeric.h utils/splitBasedOnDelimiter.h utils/findAllOccurances.h utils/replaceAll.h utils/checkTypeOfToken.h)

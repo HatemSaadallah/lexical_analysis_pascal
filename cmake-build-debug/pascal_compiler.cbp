@@ -82,22 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/ToUpper.h">
-			<Option target="pascal_compiler"/>
-		</Unit>
-		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/TokenStructure.h">
-			<Option target="pascal_compiler"/>
-		</Unit>
 		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/main.cpp">
 			<Option target="pascal_compiler"/>
 		</Unit>
-		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/repository.h">
-			<Option target="pascal_compiler"/>
-		</Unit>
-		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/trimString.h">
-			<Option target="pascal_compiler"/>
-		</Unit>
 		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/utils/ReadKeywords.h">
+			<Option target="pascal_compiler"/>
+		</Unit>
+		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/utils/ToUpper.h">
+			<Option target="pascal_compiler"/>
+		</Unit>
+		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/utils/TokenStructure.h">
 			<Option target="pascal_compiler"/>
 		</Unit>
 		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/utils/checkNumeric.h">
@@ -113,6 +107,9 @@
 			<Option target="pascal_compiler"/>
 		</Unit>
 		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/utils/splitBasedOnDelimiter.h">
+			<Option target="pascal_compiler"/>
+		</Unit>
+		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/utils/trimString.h">
 			<Option target="pascal_compiler"/>
 		</Unit>
 		<Unit filename="C:/Users/m.s.i/CLionProjects/pascal-compiler/CMakeLists.txt">
