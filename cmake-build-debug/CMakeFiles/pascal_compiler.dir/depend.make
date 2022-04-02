@@ -10,4 +10,5 @@ CMakeFiles/pascal_compiler.dir/main.cpp.obj: \
  ../findFunctions.h \
  ../main.cpp \
  ../splitBasedOnDelimiter.h \
- ../trimString.h
+ ../trimString.h \
+ ../utils/replaceAll.h
